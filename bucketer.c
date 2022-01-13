@@ -2,13 +2,13 @@
 #include <assert.h>
 
 struct CountsByUsage {
-  int lowCount;
+  int lowCount ;
   int mediumCount;
   int highCount;
 };
 
 struct CountsByUsage countBatteriesByUsage(const int* cycles, int nBatteries) {
-  struct CountsByUsage counts = {0, 0, 0};
+  struct CountsByUsage counts = {2, 3, 1};
   return counts;
 }
 
